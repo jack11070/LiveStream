@@ -3,7 +3,7 @@
 
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <title>Jack的實況轉播</title>
+    <title>煎餃的實況轉播</title>
     <style>
         .mainContainer {
     display: block;
@@ -58,7 +58,7 @@
         if (flvjs.isSupported()) {
             var flvPlayer = flvjs.createPlayer({
                 type: 'flv',
-                url: 'srt://renwu38833.asuscomm.com:8890?streamid=read:mystream'
+                url: 'http://renwu38833.asuscomm.com:8888/mystream'
             });
             flvPlayer.attachMediaElement(videoElement);
             flvPlayer.load();
